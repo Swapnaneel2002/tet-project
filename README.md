@@ -1,7 +1,13 @@
-## 1. Git Usage and Basic Commands
-- Describe the Git commands you used (e.g., `git init`, `git commit`, `git push`).
-- Include examples of time traveling in Git, branching, and merging.
-- Add screenshots or links to commits demonstrating your usage.
+
+## A) Pet Project: Rediscovering Coding Through Tetris
+Project Description:
+
+After a long break from hands-on coding, I wanted to jump back in with something fun, simple, and a little nostalgic. I decided to create a Tetris game, a project that feels approachable yet offers enough complexity to keep things interesting.
+
+The main goal was to not only build something functional but to use it as a playground to practice key software engineering skills, like Git version control and modular coding. Tetris was a perfect choice because of its well-defined mechanics and opportunities for gradual improvement. This wasn’t just about making a game—it was about reigniting my passion for programming while applying what I’ve learned in a meaningful way.
+
+## 1. Using Git: A Journey of Version Control
+Throughout this project, I used Git as my primary tool for version control, which helped me keep track of my progress, experiment with ideas safely, and avoid major disasters (like losing hours of work).
 
 ## 2. UML Diagrams
 - Include at least three UML diagrams:
@@ -111,8 +117,13 @@ Here’s how I broke the project into domains:
 
 ---
 ## 6. Metrics
-- Run at least two metrics (e.g., SonarQube or others).
-- Attach screenshots of the results and explain what they mean for your project.
+I used Dart's linter to make sure my code adheres to best practices and maintains high quality. After running the linter, the results showed that my codebase is clean, with only a few minor warnings and no major errors. This highlights that the project is well-structured and follows standard coding conventions.
+
+Linter Screenshots:
+
+![first one](https://github.com/user-attachments/assets/99ceb657-d59a-4b62-a69d-e51ad6ec2f1c)
+![second one](https://github.com/user-attachments/assets/cbf3b399-eb5c-4654-bf50-21ceba992463)
+
 
 ## 7. Clean Code Development (CCD)
 This is how I kept the code clean :-
