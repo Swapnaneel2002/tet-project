@@ -71,7 +71,9 @@ Throughout this project, I used Git as my primary tool for version control, whic
 
 You can find the detailed project analysis checklist in the following PDF document:
 
-## [Project Analysis](Project_Analysis.pdf)
+
+[Project_Analysis.pdf](https://github.com/user-attachments/files/18479314/Project_Analysis.pdf)
+
 
 ## 5. Domain-Driven Design (DDD)
 Here’s how I broke the project into domains:
@@ -159,6 +161,9 @@ This is how I kept the code clean :-
      - [`Piece`](./lib/piece.dart): Handles individual Tetromino behavior.
      - [`Tile`](./lib/tile.dart): Focuses on rendering visual components.
    - Modular design simplifies scalability and makes the codebase easier to extend.
+  
+     [Clean.Code.Cheat.Sheet.for.Tetris.Project.pdf](https://github.com/user-attachments/files/18479305/Clean.Code.Cheat.Sheet.for.Tetris.Project.pdf)
+
 
 
 ## 8. Refactoring
