@@ -32,11 +32,21 @@ jobs:
       - name: Install Dependencies
         run: flutter pub get
 
+      # Step 5: Accept Android SDK Licenses
+      - name: Accept Android Licenses
+        run: flutter doctor --android-licenses
+
+      # Step 6: Ensure Android SDK Tools are Installed
+      - name: Install Required Android SDK Tools
+        run: sdkmanager "build-tools;30.0.3" "platform-tools"
+
       # Step 7: Build APK
       - name: Build APK
         run: flutter build apk --release
+
+      # Step 8: Upload APK as an artifact
       - name: Upload APK as an artifact
-        uses: actions/upload-artifact@v3  # Update to v3
+        uses: actions/upload-artifact@v3
         with:
           name: flutter-apk
           path: build/app/outputs/flutter-apk/app-release.apk
