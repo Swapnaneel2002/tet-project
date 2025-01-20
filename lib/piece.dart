@@ -25,31 +25,19 @@ class Piece {
 
   // generate the ints
   void initalizePiece() {
-    switch (type) {
-      case Tetromino.L:
-        position = [-26, -16, -6, -5];
-        break;
-      case Tetromino.J:
-        position = [-25, -15, -5, -6];
-        break;
-      case Tetromino.I:
-        position = [-4, -5, -6, -7];
-        break;
-      case Tetromino.O:
-        position = [-15, -16, -5, -6];
-        break;
-      case Tetromino.S:
-        position = [-15, -14, -6, -5];
-        break;
-      case Tetromino.Z:
-        position = [-17, -16, -6, -5];
-        break;
-      case Tetromino.T:
-        position = [-26, -16, -6, -15];
-        break;
-      default:
-    }
-  }
+  const Map<Tetromino, List<int>> initialPositions = {
+    Tetromino.L: [-26, -16, -6, -5],
+    Tetromino.J: [-25, -15, -5, -6],
+    Tetromino.I: [-4, -5, -6, -7],
+    Tetromino.O: [-15, -16, -5, -6],
+    Tetromino.S: [-15, -14, -6, -5],
+    Tetromino.Z: [-17, -16, -6, -5],
+    Tetromino.T: [-26, -16, -6, -15],
+  };
+
+  position = initialPositions[type] ?? [];
+}
+
 
   // move piece
   void movePiece(Direction direction) {
@@ -76,26 +64,14 @@ class Piece {
 
   // check for collision
   bool positionIsValid(int position) {
-    try{
-    // get the row and col of position
-    int row = (position / row_length).floor();
-    int col = position % row_length;
+  if (position < 0) return false; // Prevent invalid positions
+  
+  int row = (position / rowLength).floor();
+  int col = position % rowLength;
 
-    // if the position is taken return false
-    if (row < 0 || col < 0 || gameBoard[row][col] != null) {
-      return false;
-    }
-
-    // position is valid so return true
-    else {
-      return true;
-    }
-    } catch (e, stackTrace) {
-    debugPrint('Error in positionIsValid: $e');
-    debugPrint('Stack Trace: $stackTrace');
-    return false;
-  }
-  }
+  // Validate position within bounds and ensure it’s not occupied
+  return !(row < 0 || col < 0 || gameBoard[row][col] != null);
+}
 
   // new piece position is valid
   bool piecePositionIsValid(List<int> piecePosition) {
