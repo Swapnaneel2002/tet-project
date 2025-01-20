@@ -34,7 +34,8 @@ Throughout this project, I used Git as my primary tool for version control, whic
 
 - **At start**
 
-![Tetris App Requirements](https://imgur.com/1M1c9Ue.png)
+Tetris App Requirements
+![nAWZn6h - Imgur](https://github.com/user-attachments/assets/a40b3f66-a5d5-40a9-807f-489aea7a2303)
 
 **Current Requirements**
 
