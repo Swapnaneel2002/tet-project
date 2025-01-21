@@ -427,8 +427,11 @@ List<int> updatedPositions = currentPiece.positions.map(getMovement(Direction.do
 ## 15. AI Coding environment
 Set up a running AI Coding environment! Prove it by “coding” something iteratively
 
-![Image](https://github.com/user-attachments/assets/dbd5c639-2fe1-4c1e-ac55-af3237ec5c3f)
-![Image](https://github.com/user-attachments/assets/7c7434f9-98f1-4744-b15b-7e1fa55b1160)
+![Screenshot (8)](https://github.com/user-attachments/assets/4d0032ce-3a42-466b-b39d-50dc8bcddccf)
+![Screenshot (9)](https://github.com/user-attachments/assets/b7e559e4-7cbc-4d9b-902d-23dfdeedd14e)
+
+
+
 
 ## Conclusion
 
