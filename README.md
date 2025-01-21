@@ -288,8 +288,16 @@ The project uses Gradle for building and managing dependencies. Main Gradle file
 - [app/build.gradle](https://github.com/Swapnaneel2002/Tetris/blob/main/android/app/build.gradle): Configures app-specific dependencies and build options.
 
 ## 10. Continuous Delivery
-- Describe your pipeline setup using tools like Jenkins or GitHub Actions.
-- Include at least two script calls (e.g., Gradle tasks).
+Set up GitHub Actions to automate the workflow:
+
+1. Installation of all the dependencies
+
+2. Executing Successful Runs
+
+3. Build the APK (
+"Not a bug, it's a feature that won't leave!" 😄)
+
+You can view the GitHub Actions workflow configuration [here](https://github.com/Swapnaneel2002/tet-project/blob/main/.github/workflows/flutter-ci.yml)
 
 ## 11. Unit Tests
 - Share examples of unit tests integrated into your build.
