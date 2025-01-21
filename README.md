@@ -15,7 +15,8 @@ Throughout this project, I used Git as my primary tool for version control, whic
   
   - Use-Case Diagram
     
- ![WhatsApp Image 2025-01-20 at 02 21 29_215dec6e](https://github.com/user-attachments/assets/271fa251-8ad1-4529-a9af-5cd7fafd08a3)
+ ![WhatsApp Image 2025-01-20 at 02 21 29_3eb43c09](https://github.com/user-attachments/assets/2808322f-253c-4a12-9853-8d2315074b38)
+
 
 
   - Activity Diagram
