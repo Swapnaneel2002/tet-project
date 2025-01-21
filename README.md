@@ -6,8 +6,27 @@ After a long break from hands-on coding, I wanted to jump back in with something
 
 The main goal was to not only build something functional but to use it as a playground to practice key software engineering skills, like Git version control and modular coding. Tetris was a perfect choice because of its well-defined mechanics and opportunities for gradual improvement. This wasn’t just about making a game—it was about reigniting my passion for programming while applying what I’ve learned in a meaningful way.
 
+![Screenshot_2025-01-21-22-41-11-49_6eb2e8c6237951b58a5cca3a7c286789](https://github.com/user-attachments/assets/1df6978b-2f16-4ef0-b96c-880eab7ccee5)
+
+![Screenshot_2025-01-21-22-44-58-20_6eb2e8c6237951b58a5cca3a7c286789](https://github.com/user-attachments/assets/7c2f5e4f-deb9-4f72-bd38-f42a140d9f21)
+
+
+
 ## 1. Using Git: A Journey of Version Control
 Throughout this project, I used Git as my primary tool for version control, which helped me keep track of my progress, experiment with ideas safely, and avoid major disasters (like losing hours of work).
+
+Basic commands
+
+![Screenshot 2025-01-21 212053](https://github.com/user-attachments/assets/41c31a7b-8ab8-4837-8786-9bebbf5bb2d7)
+
+Branch
+
+![Screenshot 2025-01-21 211704](https://github.com/user-attachments/assets/c22ab0be-ce17-451e-b97b-e637ffe8651f)
+
+TimeTravel
+
+![Screenshot 2025-01-21 211812](https://github.com/user-attachments/assets/a5b278ba-f96c-453c-92ab-e67245b3d968)
+
 
 ## 2. UML Diagrams
 - Include at least three UML diagrams:
