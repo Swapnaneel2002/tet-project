@@ -77,46 +77,34 @@ You can find the detailed project analysis checklist in the following PDF docume
 
 
 ## 5. Domain-Driven Design (DDD)
-Here’s how I broke the project into domains:
 
-1.  **Core Domain:**
+ DDD
+ 
+1.  **Possible Domains for the game:**
    
-   Game Mechanics
 
- ![Game Mechanics](https://github.com/user-attachments/assets/c05943a9-645b-4a9d-92af-f07bf12f9ae2)
-
+![Screenshot 2025-01-21 004442](https://github.com/user-attachments/assets/8843511b-5aa2-4c06-9511-69b315cc4be8)
 
 
-2.  **Supporting Domain:**
 
-   Input Handling
-   
-   ![Input](https://github.com/user-attachments/assets/b4612b08-8a03-47a5-bc01-5d0564996ce2)
 
-  UI/Rendering
+2.  **Core Domains:**
+
+  ![Screenshot 2025-01-21 004342](https://github.com/user-attachments/assets/2a20577b-88bc-4b27-a5ea-77d644358ced)
+
+
+3.  **Core Mapping:**
   
-  ![UI](https://github.com/user-attachments/assets/968f77b1-a3a9-4eec-af84-aabcd52420e1)
-
-3.  **Generic Domain:**
-  
-   Shared Components
-
-![Generic](https://github.com/user-attachments/assets/a329382b-c6f8-49f6-9293-686bd8fa3c05)
+ 
+![Screenshot 2025-01-21 004553](https://github.com/user-attachments/assets/45592bbc-054c-438c-a0d5-a906cfaaf2fe)
 
 
 
-4.  **Monitoring Domain:**
-  
-   Analytics
 
-   ![Monitoring](https://github.com/user-attachments/assets/96804464-375c-4476-a2b4-9934d1892091)
+4. **Model Complexity vs Business Differentiation
 
+![Screenshot 2025-01-21 004458](https://github.com/user-attachments/assets/e3f0582b-19cd-40a5-9524-1ee09872fcd0)
 
-5.  **Unified Visual Representation Domain:**
-  
-   bird’s-eye view
-
-   ![Screenshot (16)](https://github.com/user-attachments/assets/2b96994a-47a2-47bd-bb5f-637247e635a4)
 
 ---
 ## 6. Metrics
