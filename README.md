@@ -22,14 +22,15 @@ Throughout this project, I used Git as my primary tool for version control, whic
   - Activity Diagram
 
 
-![Tetris_Activity_Diagram]![Tetris_Activity_Diagram](https://github.com/user-attachments/assets/bd51033c-c808-497f-8fd8-ebefea6bab40)
+![Tetris_Activity_Diagram](https://github.com/user-attachments/assets/bd51033c-c808-497f-8fd8-ebefea6bab40)
 
 
 
   
   - Class Diagram
 
- ![image](https://github.com/user-attachments/assets/453e0013-f2b5-4336-8319-49223e8c9472)
+ ![WhatsApp Image 2025-01-20 at 01 37 03_e4ee24b7](https://github.com/user-attachments/assets/75b032f6-c1fd-437f-97b9-0bc5aa559a20)
+
 
 ## 3. Requirements
 #### Trello
@@ -37,7 +38,9 @@ Throughout this project, I used Git as my primary tool for version control, whic
 - **At start**
 
 Tetris App Requirements
-![nAWZn6h - Imgur](https://github.com/user-attachments/assets/a40b3f66-a5d5-40a9-807f-489aea7a2303)
+
+![Screenshot (20)](https://github.com/user-attachments/assets/50c49dd3-b6e8-4e2c-9dc2-ba763088ced8)
+
 
 **Current Requirements**
 
@@ -48,7 +51,8 @@ Tetris App Requirements
 
 - **At start**
 
-![Image](https://github.com/user-attachments/assets/e0a7facd-831a-47a6-a515-56c5fb0832ed)
+![Screenshot (7)](https://github.com/user-attachments/assets/efd803e2-0025-41fd-b72f-bc98541cba2c)
+
 
 **Requirments Currently**
 
