@@ -22,7 +22,8 @@ Throughout this project, I used Git as my primary tool for version control, whic
   - Activity Diagram
 
 
-![Tetris_Activity_Diagram](https://github.com/user-attachments/assets/dada937d-ed00-4970-b08c-04c850f0a261)
+![Tetris_Activity_Diagram]![Tetris_Activity_Diagram](https://github.com/user-attachments/assets/bd51033c-c808-497f-8fd8-ebefea6bab40)
+
 
 
   
