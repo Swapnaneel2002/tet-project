@@ -78,7 +78,7 @@ You can find the detailed project analysis checklist in the following PDF docume
 
 ## 5. Domain-Driven Design (DDD)
 
- DDD
+
  
 1.  **Possible Domains for the game:**
    
